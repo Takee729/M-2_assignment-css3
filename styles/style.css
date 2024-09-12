@@ -206,8 +206,95 @@ main {
     margin-top: 50px;
 }
 
+/* facts  */
+.facts {
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
 
+.fact-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
 
+.fact {
+    margin-bottom: 100px;
+}
+
+.awards {
+    display: flex;
+    gap: 124px;
+}
+
+.box {
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 36px 58px 36px;
+}
+
+.box img {
+    width: 45px;
+    height: 45px;
+}
+
+.box h3 {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.box p {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* sponsorship  */
+.sponsorship {
+    margin-top: 70px;
+    margin-bottom: 130px;
+}
+
+.sponsor-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.sponsor {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsors {
+    display: flex;
+    gap: 155px;
+}
+
+.sponsors img {
+    width: 166px;
+    height: 50px;
+}
+
+/* footer  */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.footer-description {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    padding: 40px 410px;
+}
 
 
 
@@ -338,13 +425,88 @@ main {
     .ten-year {
         font-size: 45px;
     }
+
     .experience {
         font-size: 15px;
     }
+
     .secondary {
         margin-top: 20px;
     }
 
+    /* facts  */
+    .facts {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
+    .fact-title {
+        font-size: 32px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    .fact {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .awards {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .box {
+        padding: 20px 10px 20px 10px;
+    }
+
+
+    /* sponsorship  */
+.sponsorship {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.sponsor-title {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.sponsor {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sponsor br{
+    display: none;
+}
+
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.sponsors img {
+    width: 133px;
+    height: 40px;
+}
+
+/* footer  */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.footer-description {
+    color: #424242;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    padding: 20px 10px;
+}
 
 }
