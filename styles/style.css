@@ -109,7 +109,8 @@ main {
     font-size: 45px;
     margin-bottom: 24px;
 }
-.grid-description{
+
+.grid-description {
     color: #727272;
     font-size: 16px;
     margin-bottom: 32px;
@@ -129,6 +130,87 @@ main {
     color: #FF900E;
     font-weight: 700;
 }
+
+/* chinese  */
+.chinese {
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+    width: 1320px;
+    align-items: center;
+}
+
+.love {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.love-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.love hr {
+    margin-right: 21px;
+    width: 5px;
+    height: 106px;
+    background-color: #FF900E;
+    border: none;
+}
+
+.description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.chinese p {
+    margin-bottom: 30px;
+}
+
+.cards {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 25px 30px 25px 25px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.chinese-img img {
+    width: 708px;
+    height: 1000px;
+    border-radius: 8px;
+}
+
+/* big button  */
+.ten-year {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.experience {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.secondary {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+
+
+
 
 
 @media screen and (max-width:667px) {
@@ -171,34 +253,96 @@ main {
 
     /* grid-box  */
     header {
-        margin-bottom: 35px;    
+        margin-bottom: 35px;
     }
+
     .grid-box {
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
-    
+
     .grid-box img {
         width: 280px;
         height: 280px;
     }
-    
+
     .container-two {
         display: flex;
         flex-direction: column;
         gap: 40px;
         width: 100%;
     }
-    .grid-informations{
+
+    .grid-informations {
         text-align: center;
     }
+
     .grid-title {
-        font-size: 40px;
+        font-size: 32px;
         margin-bottom: 14px;
     }
-    .grid-description{
+
+    .grid-description {
         font-size: 11px;
         margin-bottom: 22px;
+    }
+
+    /* chinese  */
+    .chinese {
+        margin-top: 0px;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* .love {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+    } */
+
+    .love-title {
+        font-size: 32px;
+    }
+
+    .love hr {
+        margin-right: 15px;
+        height: 55px;
+
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .chinese p {
+        margin-bottom: 20px;
+    }
+
+    .cards {
+        padding: 15px 20px 15px 15px;
+        margin-bottom: 15px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .chinese-img img {
+        width: 250px;
+        height: 350px;
+    }
+
+    /* big button  */
+    .ten-year {
+        font-size: 45px;
+    }
+    .experience {
+        font-size: 15px;
+    }
+    .secondary {
+        margin-top: 20px;
     }
 
 
